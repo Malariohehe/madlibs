@@ -27,6 +27,7 @@ public class Madlibs {
        String numberOne;
        String numberTwo;
        String secondPerson;
+       String verb1;
        
        
        
@@ -37,6 +38,14 @@ public class Madlibs {
      
        System.out.println("Please enter a person's name.");
        secondPerson = sc.nextLine();
+       
+       System.out.println("Please give me a noun.");
+       noun1 = sc.nextLine();
+       
+       System.out.println("Please give me a verb.");
+       verb1 = sc.nextLine();
+       
+       
        
        
        
