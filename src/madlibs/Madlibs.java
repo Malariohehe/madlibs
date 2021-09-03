@@ -21,6 +21,16 @@ public class Madlibs {
        Scanner sc = new Scanner(System.in);
        
        
+       String noun1;
+       String noun2;
+       String personsName;
+       
+       System.out.println("What is your name?");
+       personsName = sc.nextLine();
+       
+       System.out.println("Hi " + personsName + "!" );
+       
+       
         
     
     
