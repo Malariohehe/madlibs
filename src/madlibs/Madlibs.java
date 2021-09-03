@@ -24,9 +24,10 @@ public class Madlibs {
        String noun1;
        String noun2;
        String personsName;
-       String number1;
-       String number2;
-       String total;
+       String numberOne;
+       String numberTwo;
+       
+       
        
        System.out.println("What is your name?");
        personsName = sc.nextLine();
@@ -35,14 +36,17 @@ public class Madlibs {
        
        
        System.out.println("Please enter a number.");
-       number1 = sc.nextLine();
+       numberOne = sc.nextLine();
        
        System.out.println("Thank you, please enter a second number.");
-       number2 = sc.nextLine();
+       numberTwo = sc.nextLine();
        
-       total = number1 + number2;
+       System.out.println("The answer is. ");
        
-       System.out.println("the answer is " + total);
+       
+       
+       
+       
        
        
         
