@@ -20,7 +20,7 @@ public class Madlibs {
         
        Scanner sc = new Scanner(System.in);
        
-       
+      
        String noun1;
        String noun2;
        String personsName;
@@ -45,20 +45,14 @@ public class Madlibs {
        System.out.println("Please give me a verb.");
        verb1 = sc.nextLine();
        
-       
-       
-       
-       
-      
-       
-       
+       System.out.println("Please give me another noun.");
+       noun2 = sc.nextLine();
        
        
        
        
        
-        
-    
+  
     
     }
     
