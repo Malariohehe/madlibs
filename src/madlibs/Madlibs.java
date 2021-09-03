@@ -26,6 +26,7 @@ public class Madlibs {
        String personsName;
        String numberOne;
        String numberTwo;
+       String secondPerson;
        
        
        
@@ -33,15 +34,13 @@ public class Madlibs {
        personsName = sc.nextLine();
        
        System.out.println("Hi " + personsName + "!" );
+     
+       System.out.println("Please enter a person's name.");
+       secondPerson = sc.nextLine();
        
        
-       System.out.println("Please enter a number.");
-       numberOne = sc.nextLine();
        
-       System.out.println("Thank you, please enter a second number.");
-       numberTwo = sc.nextLine();
-       
-       System.out.println("The answer is. ");
+      
        
        
        
