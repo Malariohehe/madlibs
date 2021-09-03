@@ -50,7 +50,7 @@ public class Madlibs {
        System.out.println("Please give me another noun.");
        noun2 = sc.nextLine();
        
-       System.out.println("Please gove me and adjective.");
+       System.out.println("Please give me and adjective.");
        adjective1 = sc.nextLine();
        
        
