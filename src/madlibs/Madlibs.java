@@ -32,6 +32,7 @@ public class Madlibs {
        
        
        
+       
        System.out.println("What is your name?");
        personsName = sc.nextLine();
        
@@ -54,7 +55,9 @@ public class Madlibs {
        
        
        
-  
+       
+       
+       
     
     }
     
