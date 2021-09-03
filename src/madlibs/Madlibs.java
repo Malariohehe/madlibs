@@ -5,6 +5,8 @@
  */
 package madlibs;
 
+import java.util.Scanner;
+
 /**
  *
  * @author kaltman
