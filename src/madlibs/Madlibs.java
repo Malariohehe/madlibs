@@ -24,11 +24,25 @@ public class Madlibs {
        String noun1;
        String noun2;
        String personsName;
+       String number1;
+       String number2;
+       String total;
        
        System.out.println("What is your name?");
        personsName = sc.nextLine();
        
        System.out.println("Hi " + personsName + "!" );
+       
+       
+       System.out.println("Please enter a number.");
+       number1 = sc.nextLine();
+       
+       System.out.println("Thank you, please enter a second number.");
+       number2 = sc.nextLine();
+       
+       total = number1 + number2;
+       
+       System.out.println("the answer is " + total);
        
        
         
