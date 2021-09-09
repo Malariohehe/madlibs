@@ -29,7 +29,7 @@ public class Madlibs {
        String secondPerson;
        String verb1;
        String adjective1;
-       
+       String integer1;
        
        
        
@@ -53,7 +53,11 @@ public class Madlibs {
        System.out.println("Please give me an adjective.");
        adjective1 = sc.nextLine();
        
+        System.out.println("Please pick an integer. (a number with no decimal) ");
+       integer1 =  sc.nextLine();
+       
         System.out.println("");
+       
        
        
        
