@@ -57,7 +57,7 @@ public class Madlibs {
        System.out.println("Please give me an adjective.");
        adjective1 = sc.nextLine();
        
-       
+       System.out.println("");
        
        
        
