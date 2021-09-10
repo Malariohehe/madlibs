@@ -30,11 +30,11 @@ public class Madlibs {
        String verb1;
        String adjective1;
        String integer1;
-       String double1;
+       String double1 = null;
        String double2; 
       String integer2;
-      
-       
+      double result = Double.parseDouble(double1);
+      double result = Double.parseDouble(double2);
        
        
        System.out.println("What is your name?");
@@ -69,7 +69,7 @@ public class Madlibs {
         System.out.println("Please insert another number with a decimal.");
        double2 = sc.nextLine();
         
-        System.out.println("");
+        System.out.println("answer" + double1 / double2 + );
        
        
        
