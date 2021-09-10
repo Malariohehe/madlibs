@@ -68,8 +68,8 @@ public class Madlibs {
        
         System.out.println("Please insert another number with a decimal.");
        double2 = sc.nextLine();
-       
-        System.out.println("hello " +personsName );
+        
+        System.out.println("");
        
        
        
