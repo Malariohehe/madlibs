@@ -29,12 +29,12 @@ public class Madlibs {
        String secondPerson;
        String verb1;
        String adjective1;
-       int integer1 = 2;
-       int integer2 = 2;
-       double decimal1 = 5.0;
-       double decimal2 = 2.0;
-       int total1 = integer1 + integer2;
-       double total2 = decimal1 / decimal2; 
+       String integer1;
+       String double1;
+       String double2; 
+      String integer2;
+      
+       
        
        
        System.out.println("What is your name?");
@@ -57,9 +57,19 @@ public class Madlibs {
        System.out.println("Please give me an adjective.");
        adjective1 = sc.nextLine();
        
-       System.out.println("");
+       System.out.println("Please insert an integer.");
+       integer1 = sc.nextLine();
        
+        System.out.println("Please enter a number with a decimal");
+       double1 = sc.nextLine();
        
+        System.out.println("Please enter another integer.");
+       integer2 = sc.nextLine();
+       
+        System.out.println("Please insert another number with a decimal.");
+       double2 = sc.nextLine();
+       
+        System.out.println("hello " +personsName );
        
        
        
