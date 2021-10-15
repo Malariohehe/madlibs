@@ -21,55 +21,53 @@ public class Madlibs {
        Scanner sc = new Scanner(System.in);
        
       
-       String noun1;
-       String noun2;
-       String personsName;
-       String numberOne;
-       String numberTwo;
-       String secondPerson;
-       String verb1;
-       String adjective1;
-       String integer1;
-       String double1 = null;
-       String double2; 
-      String integer2;
-      double result = Double.parseDouble(double1);
-      double result = Double.parseDouble(double2);
+        String noun1;
+        String noun2;
+        String personsName;
+        String numberOne;
+        String numberTwo;
+        String secondPerson;
+        String verb1;
+        String adjective1;
+      
+      
        
        
-       System.out.println("What is your name?");
-       personsName = sc.nextLine();
+        System.out.println("What is your name?");
+        personsName = sc.nextLine();
        
-       System.out.println("Hi " + personsName + "!" );
+        System.out.println("Hi " + personsName + "!" );
      
-       System.out.println("Please enter a person's name.");
-       secondPerson = sc.nextLine();
+        System.out.println("Please enter a person's name.");
+        secondPerson = sc.nextLine();
        
-       System.out.println("Please give me a noun.");
-       noun1 = sc.nextLine();
+        System.out.println("Please give me a noun.");
+        noun1 = sc.nextLine();
        
-       System.out.println("Please give me a verb.");
-       verb1 = sc.nextLine();
+        System.out.println("Please give me a verb.");
+        verb1 = sc.nextLine();
        
-       System.out.println("Please give me another noun.");
-       noun2 = sc.nextLine();
+        System.out.println("Please give me another noun.");
+        noun2 = sc.nextLine();
        
-       System.out.println("Please give me an adjective.");
-       adjective1 = sc.nextLine();
+        System.out.println("Please give me an adjective.");
+        adjective1 = sc.nextLine();
        
-       System.out.println("Please insert an integer.");
-       integer1 = sc.nextLine();
+        System.out.println("Please insert an integer.");
+        String integer1 = sc.nextLine();
        
         System.out.println("Please enter a number with a decimal");
-       double1 = sc.nextLine();
+        String double1 = sc.nextLine();
        
         System.out.println("Please enter another integer.");
-       integer2 = sc.nextLine();
+        String integer2 = sc.nextLine();
        
         System.out.println("Please insert another number with a decimal.");
-       double2 = sc.nextLine();
+        String double2 = sc.nextLine();
         
-        System.out.println("answer" + double1 / double2 + );
+       
+        
+        //System.out.println("answer" + double1 / double2 + );
        
        
        
